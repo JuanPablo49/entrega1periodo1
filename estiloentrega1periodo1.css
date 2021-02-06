@@ -1,0 +1,37 @@
+body{
+  background:url(fondoentrega1.jpg) fixed no-repeat;
+  font-family: HoloLens MDL2 Assets;
+  width: 600px;
+  margin: 0 auto;
+}
+ul{
+  list-style: none;
+}
+#menu li>a{
+  background-color: #8E8B8B;
+  color: black;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  min-width: 100px;
+
+}
+#menu li>a:hover{
+  color: #000;
+  background-color: #CA5012;
+}
+#menu>li{
+  float: left;
+  text-align:center
+}
+#menu>li>ul{
+  display: none;
+}
+#menu>li:hover>ul {
+  display:block;
+}
+
+<style>
+#boton{display:none;}
+</style>
+
